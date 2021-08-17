@@ -1,6 +1,18 @@
-# meditation_app
+# Daily Exercises App - Flutter UI
 
-A new Flutter project.
+### Packages we are using:
+
+flutter_svg
+
+### Fonts
+
+Cairo
+
+### UI Credit
+
+Design by: Shahidul Islam Shishir <a href="https://www.uplabs.com/posts/daily-exercises-app-freebie">Link</a>
+
+<img src="https://raw.githubusercontent.com/renamcomn/meditation_app/master/assets/icons/All%20excercise%20%20option%201.jpg" width="500"/>
 
 ## Getting Started
 

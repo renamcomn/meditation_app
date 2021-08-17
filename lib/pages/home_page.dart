@@ -40,7 +40,7 @@ class HomePage extends StatelessWidget {
                       child: SvgPicture.asset("assets/icons/menu.svg"),
                     ),
                   ),
-                  Text("Bom dia \nRenan Henrique", style: Theme.of(context).textTheme.display1!.copyWith(fontWeight: FontWeight.w900),),
+                  Text("Bom dia, \nRenan Henrique", style: Theme.of(context).textTheme.display1!.copyWith(fontSize: 23, fontWeight: FontWeight.w900),),
                   Container(
                     margin: EdgeInsets.symmetric(vertical: 30),
                     padding: EdgeInsets.symmetric(horizontal: 30, vertical: 5),

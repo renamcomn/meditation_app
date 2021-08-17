@@ -56,6 +56,19 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
                     ),
+                    Expanded(
+                      child: GridView.count(
+                        crossAxisCount: 2,
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(13)
+                            ),
+                          )
+                        ],
+                      ),
+                    )
                 ],
               ),
             ),

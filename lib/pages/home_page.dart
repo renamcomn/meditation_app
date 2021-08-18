@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:meditation_app/widgets/category_card.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({ Key? key }) : super(key: key);
@@ -59,13 +60,14 @@ class HomePage extends StatelessWidget {
                     Expanded(
                       child: GridView.count(
                         crossAxisCount: 2,
+                        childAspectRatio: .85,
+                        crossAxisSpacing: 20,
+                        mainAxisSpacing: 20,
                         children: [
-                          Container(
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(13)
-                            ),
-                          )
+                          CategoryCard(title: "Diet Recomendation", icon: "assets/icons/Hamburger.svg", press: () { print("Diet"); },),
+                          CategoryCard(title: "Kegel Exercises", icon: "assets/icons/Excrecises.svg", press: () { print("Kegel"); }),
+                          CategoryCard(title: "Meditation", icon: "assets/icons/Meditation.svg", press: () { print("Meditation"); }),
+                          CategoryCard(title: "Yoga", icon: "assets/icons/yoga.svg", press: () { print("Yoga"); })
                         ],
                       ),
                     )

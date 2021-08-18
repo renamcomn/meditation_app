@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:meditation_app/widgets/bottom_nav_bar.dart';
+
 import 'package:meditation_app/widgets/category_card.dart';
 
 class HomePage extends StatelessWidget {
@@ -10,6 +12,7 @@ class HomePage extends StatelessWidget {
     var size = MediaQuery.of(context).size;
 
     return Scaffold(
+      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: [
           Container(
@@ -80,3 +83,6 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
+
+
